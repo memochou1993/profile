@@ -6,6 +6,7 @@ export { default as GoogleAnalytics } from './GoogleAnalytics';
 export { default as GoogleFonts } from './GoogleFonts';
 export { default as Header } from './Header';
 export { default as Heading } from './Heading';
+export { default as LabList } from './LabList';
 export { default as Profile } from './Profile';
 export { default as ProjectList } from './ProjectList';
 export { default as Sidebar } from './Sidebar';

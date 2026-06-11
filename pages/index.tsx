@@ -5,6 +5,7 @@ import {
   About,
   Footer,
   Header,
+  LabList,
   Profile,
   ProjectList,
   Sidebar,
@@ -24,6 +25,7 @@ export default function Home() {
           <main className="my-12">
             <Profile {...config.components.profile} />
             <About {...config.components.about} />
+            <LabList {...config.components.labList} />
             <ProjectList {...config.components.projectList} />
             <ArticleList {...config.components.articleList} />
           </main>

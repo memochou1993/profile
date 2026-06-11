@@ -63,6 +63,28 @@
       "enabled": true,
       "title": "About"
     },
+    "labList": {
+      "enabled": true,
+      "title": "Memo's Lab",
+      "items": [
+        { "name": "https://profile.epoch.tw", "link": "https://profile.epoch.tw" },
+        { "name": "https://particle-staking.epoch.tw", "link": "https://memochou1993.github.io/particle-staking-ui/" },
+        { "name": "https://paint.epoch.tw", "link": "https://memochou1993.github.io/paint/" },
+        { "name": "https://eth-donation.epoch.tw", "link": "https://memochou1993.github.io/eth-donation/" },
+        { "name": "https://thesaurus-builder-example.epoch.tw", "link": "https://memochou1993.github.io/thesaurus-builder-example/" },
+        { "name": "https://aat-simplified.epoch.tw", "link": "https://memochou1993.github.io/aat-simplified/" },
+        { "name": "https://time-clock.epoch.tw", "link": "https://time-clock.epoch.tw" },
+        { "name": "https://password-generator.epoch.tw", "link": "https://memochou1993.github.io/password-generator/" },
+        { "name": "https://stock.epoch.tw", "link": "https://stock.epoch.tw" },
+        { "name": "https://crawler.epoch.tw", "link": "https://crawler.epoch.tw" },
+        { "name": "https://chat.epoch.tw", "link": "https://chat.epoch.tw" },
+        { "name": "https://json.epoch.tw", "link": "https://json.epoch.tw" },
+        { "name": "https://104-calculator.epoch.tw", "link": "https://memochou1993.github.io/104-calculator/" },
+        { "name": "https://portfolio.epoch.tw", "link": "https://portfolio.epoch.tw" },
+        { "name": "https://blog.epoch.tw", "link": "https://blog.epoch.tw" },
+        { "name": "https://kuntai.epoch.tw", "link": "https://kuntai.epoch.tw" }
+      ]
+    },
     "googleFonts": {
       "enabled": true,
       "family": "Roboto"
@@ -509,7 +531,7 @@
       "enabled": false,
       "title": "Articles",
       "limit": 20,
-      "source": "https://blog.epoch.tw/atom.xml",
+      "source": "",
       "entrySpec": {
         "key": "entry",
         "fields": {

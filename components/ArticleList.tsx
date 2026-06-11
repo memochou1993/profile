@@ -49,7 +49,7 @@ export default function ArticleList({
   const [articles, setArticles] = useState<Array<EntryType>>([]);
   const [page, setPage] = useState(1);
   useEffect(() => {
-    if (mounted.current) return;
+    if (!enabled || mounted.current) return;
     (async () => {
       setArticles(await fetchArticles(source, entrySpec));
     })();
