@@ -22,7 +22,11 @@ export default function App({
         <meta property="og:image" content={config.meta.image} />
         <meta property="og:image:alt" content={config.meta.title} />
         <meta property="og:image:type" content="image/jpeg" />
-        <link rel="icon" href="favicon.png" />
+        <link rel="icon" href="/favicon.ico" sizes="48x48" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <meta name="theme-color" content="#111827" />
       </Head>
       <GoogleAnalytics {...config.components.googleAnalytics} />
       <Component {...pageProps} />
