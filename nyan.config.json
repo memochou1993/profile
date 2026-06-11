@@ -67,7 +67,6 @@
       "enabled": true,
       "title": "Memo's Lab",
       "items": [
-        { "name": "Profile", "link": "https://profile.epoch.tw" },
         { "name": "Particle Staking", "link": "https://memochou1993.github.io/particle-staking-ui/" },
         { "name": "Paint", "link": "https://memochou1993.github.io/paint/" },
         { "name": "ETH Donation", "link": "https://memochou1993.github.io/eth-donation/" },
