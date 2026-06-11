@@ -21,7 +21,7 @@ export default function App({
         <meta property="og:description" content={config.meta.description} />
         <meta property="og:image" content={config.meta.image} />
         <meta property="og:image:alt" content={config.meta.title} />
-        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:type" content="image/jpeg" />
         <link rel="icon" href="favicon.png" />
       </Head>
       <GoogleAnalytics {...config.components.googleAnalytics} />

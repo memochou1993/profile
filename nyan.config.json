@@ -11,19 +11,19 @@
   },
   "meta": {
     "author": "Memo Chou",
-    "title": "Memo's Profile",
-    "description": "I'm Memo Chou, a creative developer passionate about Go, PHP, Rust and JavaScript.",
-    "image": "https://github.com/memochou1993.png"
+    "title": "Memo Chou",
+    "description": "I'm Memo Chou. I build web apps and experiments.",
+    "image": "https://epoch.tw/avatar.jpg"
   },
   "components": {
     "profile": {
       "enabled": true,
-      "avatar": "https://github.com/memochou1993.png",
+      "avatar": "/avatar.jpg",
       "name": "Memo Chou",
-      "organization": "KKLab",
+      "organization": "",
       "location": "Taipei, Taiwan",
       "email": "memochou1993@gmail.com",
-      "url": "https://profile.epoch.tw",
+      "url": "",
       "socialLinks": {
         "github": {
           "id": "memochou1993"
@@ -46,18 +46,18 @@
       }
     },
     "header": {
-      "enabled": true,
+      "enabled": false,
       "components": {
         "themeSwitch": {
-          "enabled": true
+          "enabled": false
         }
       }
     },
     "sidebar": {
-      "enabled": true
+      "enabled": false
     },
     "footer": {
-      "enabled": true
+      "enabled": false
     },
     "about": {
       "enabled": true,
@@ -72,7 +72,7 @@
       "id": "G-RK2ZEFCDK7"
     },
     "projectList": {
-      "enabled": true,
+      "enabled": false,
       "title": "Projects",
       "limit": 240,
       "items": [
@@ -506,7 +506,7 @@
       ]
     },
     "articleList": {
-      "enabled": true,
+      "enabled": false,
       "title": "Articles",
       "limit": 20,
       "source": "https://blog.epoch.tw/atom.xml",
