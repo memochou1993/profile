@@ -3,6 +3,7 @@ import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import {
+  GoogleAdSense,
   GoogleAnalytics,
 } from '@/components';
 import config from '../nyan.config.json';
@@ -29,6 +30,7 @@ export default function App({
         <meta name="theme-color" content="#111827" />
       </Head>
       <GoogleAnalytics {...config.components.googleAnalytics} />
+      <GoogleAdSense {...config.components.googleAdSense} />
       <Component {...pageProps} />
     </>
   );

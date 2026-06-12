@@ -93,6 +93,10 @@
       "enabled": true,
       "id": "G-RK2ZEFCDK7"
     },
+    "googleAdSense": {
+      "enabled": true,
+      "client": "ca-pub-1523667193708406"
+    },
     "projectList": {
       "enabled": false,
       "title": "Projects",
