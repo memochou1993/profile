@@ -3,10 +3,10 @@
   "theme": {
     "mode": "dark",
     "light": {
-      "background": "#d1d5db"
+      "background": "#d4d4d8"
     },
     "dark": {
-      "background": "#111827"
+      "background": "#18181b"
     }
   },
   "meta": {

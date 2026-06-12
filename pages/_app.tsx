@@ -26,7 +26,7 @@ export default function App({
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        <meta name="theme-color" content="#111827" />
+        <meta name="theme-color" content="#18181b" />
       </Head>
       <GoogleAnalytics {...config.components.googleAnalytics} />
       <Component {...pageProps} />
