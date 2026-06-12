@@ -6,6 +6,7 @@ import {
   NextScript,
 } from 'next/document';
 import {
+  GoogleAdSense,
   GoogleFonts,
 } from '@/components';
 import {
@@ -18,6 +19,7 @@ export default function Document() {
     <Html className={config.theme.mode}>
       <Head>
         <GoogleFonts {...config.components.googleFonts} />
+        <GoogleAdSense {...config.components.googleAdSense} />
       </Head>
       <body className={config.theme.mode === MODE_DARK ? 'bg-dark-bg' : 'bg-light-bg'}>
         <Main />
